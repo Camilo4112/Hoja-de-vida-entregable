@@ -1,0 +1,182 @@
+body {
+    background-color: #f1f1f1;
+}
+
+h1 {
+    color:#13ac13;
+    font-size: 40px;
+}
+
+.titulo {
+	text-align: center;
+}
+
+h2 {
+    color: #32c9dd(55, 0, 255);
+    font-size: 20px;
+}
+
+nav {
+    background-color: #ffffff;
+    color: #e0f33a;
+    font-size: 18px;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;   
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    color: #83d7ec;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+/*inicia el responsive */
+
+
+
+
+
+/*Inicia las section*/
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.seccion1 {
+	background-color: #ffffff;
+	height: 800px;
+	width: 310px;
+	float: left;
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+.contenedor {
+	display: flex;
+	align-items: center;
+    
+}
+
+.contenedor img {
+	margin-right: 20px;
+}
+
+.contenedor p.texto {
+	padding-left: 20px;
+}
+
+.enlace {
+	font-family: Arial, sans-serif;
+	color: #FF0000;
+}
+
+
+/*Aqui empieza la segunda section*/
+.seccion2 {
+	background-color: ivory;
+	height: 800px;
+	margin-left: 340px; /* 320px + 20px de espacio */
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+.contenido {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: right;
+  text-align: center;
+}
+
+
+
+.contenido img {
+  max-width: 100%;
+  height: auto;
+}
+
+.contenido p {
+  margin-bottom: 20px;
+  line-height: 1.9em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Aqui empiezaa el footer*/
+footer {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+    font-size: 14px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-section1 {
+    width: 30%;
+  }
+  
+  h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+
+  p {
+    text-align: right;
+  }
+  
+  
+  /*responsive*/
+  

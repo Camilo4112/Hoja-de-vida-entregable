@@ -1,0 +1,75 @@
+body {
+    background-color: #f1f1f1;
+  }
+  
+  h1 {
+    color:#13ac13;
+    font-size: 40px;
+  }
+  
+  .titulo {
+  text-align: center;
+  }
+  
+  h2 {
+    color: #32c9dd(55, 0, 255);
+    font-size: 20px;
+  }
+  
+  nav {
+    background-color: #ffffff;
+    color: #e0f33a;
+    font-size: 18px;
+    padding: 15px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;   
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    color: #83d7ec;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .section2 {
+    
+
+
+    background: linear-gradient(#00FFFF, #FFFFFF);
+
+  }
+  
+  .texto-izquierdo {
+    float: left; /* Hace que el elemento flote a la izquierda */
+    width: 30%; /* Establece el ancho del elemento al 50% del contenedor */
+    text-align: center;
+  }
+  
+  .texto-derecho {
+    float: right; /* Hace que el elemento flote a la derecha */
+    width: 30%; /* Establece el ancho del elemento al 50% del contenedor */
+    text-align: left; /* Establece el texto a la derecha del elemento */
+    
+  }
+  
